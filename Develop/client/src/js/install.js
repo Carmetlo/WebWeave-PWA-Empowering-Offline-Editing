@@ -7,7 +7,7 @@ window.addEventListener('beforeinstallprompt', (event) => {
     console.log("event" + event);
     event.preventDefault();
     window.deferredPrompt = event;
-    butInstall.removeAttribute('hidden, false');
+    butInstall.removeAttribute('hidden');
 });
 
 // TODO: Implement a click event handler on the `butInstall` element

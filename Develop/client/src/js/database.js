@@ -42,7 +42,7 @@ export const getDb = async () => {
 
   const result = await store.getAll();
   console.log('result', result);
-  return result?.value;
+  return result;
 };
 
 initdb();
